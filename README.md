@@ -1,7 +1,16 @@
 # Split Clip
 
 ## Description
-This Python script, `split_clip.py`, allows you to split a video clip into two halves with a 10 second gap in between. It takes two inputs: the path to the video file you want to split and the path to the output directory where the split clips will be saved.
+This Python script, `split_clip.py`, allows you to split a video clip into two halves with a 10 second gap in between. 
+
+Run it with two inputs:
+* the path to the video file you want to split
+* the path to the output directory where the split clips will be saved.
+
+example
+```
+python split_clip.py /Users/lizhagearty/Movies/assets/IMG_6232.MOV /Users/lizhagearty/development/split-clip/output.otio
+```
 
 ## Prerequisites
 - Python 3.x
